@@ -1,0 +1,13 @@
+LOC     LABEL   OPCODE  OPERAND 
+
+        copy    START   4096    
+1000    -       LDA     ALPHA   
+1003    -       ADD     ONE     
+1006    -       SUB     TWO     
+1006    -       STA     BETA    
+1009    ALPHA   BYTE    C'KLNCE'
+100E    ONE     RESB    2       
+1010    TWO     WORD    5       
+1013    BETA    RESW    1       
+
+Program length = 16
