@@ -1,0 +1,10 @@
+COPY    START   4096
+_       LDA     ALPHA
+_       ADD     ONE
+_       SUB     TWO
+_       STA     BETA
+ALPHA   BYTE    C'KLNCE'
+ONE     RESB    2
+TWO     WORD    5
+BETA    RESW    1
+_       END     _
